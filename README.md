@@ -161,6 +161,7 @@ moviesDB> db.moviedetails.find()
 
 **9.List movie Directed  by Christopher Nolan in 1994.**
 moviesDB> db.moviedetails.find({"Movie-Title":"Christopher Nolan","Release Year": 1994})
+
 **10.List out the Director’s Name in your document.**
 moviesDB>  db.moviedetails.distinct("Director")
 [
